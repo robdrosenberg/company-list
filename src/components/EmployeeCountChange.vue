@@ -22,8 +22,7 @@ export default {
   props: ['numberOfEmployees'],
   data() {
     return {
-      originalEmployeeCount: this.numberOfEmployees,
-      employeeCount: this.originalEmployeeCount,
+      employeeCount: this.numberOfEmployees,
     };
   },
   methods: {
